@@ -1,0 +1,1 @@
+CREATE DATABASE IF NOT EXISTS blod_db;CREATE TABLE IF NOT EXISTS t_message(  message_content VARCHAR(256),  message_datetime INT,  message_from INT,  message_to INT);

@@ -1,0 +1,19 @@
+.sign-in{
+    position: absolute;
+    top:20px;
+    right:0;
+    *{
+        display: block;
+    }
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#developpMenue{
+    cursor: pointer;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
