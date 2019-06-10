@@ -1,0 +1,31 @@
+.zone{
+    height: 100vh;
+    width: 400px;
+    transform: skew(6deg);
+    margin-left: -100px;
+    background-color: #29abe2;
+    padding: 0px;
+}
+.container{
+    transform: skew(-6deg);
+    margin-left: 100px;
+    width: 225px;
+    height: 95%;
+    overflow-y: scroll;
+    
+}
+.search{
+    transform: skew(-6deg);
+    margin-left: 150px;
+    border: 2px solid #222;
+    border-radius: 13px;
+    width: 200px;
+    input{
+        background: none;
+        border: none;
+        outline: none;
+        width: 90%;
+        height: 25px;
+    }
+
+}

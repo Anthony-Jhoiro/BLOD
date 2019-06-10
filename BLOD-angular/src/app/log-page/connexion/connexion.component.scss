@@ -1,4 +1,4 @@
-.sign-in{
+.log_sign-in{
     position: absolute;
     top:20px;
     right:0;
@@ -12,8 +12,12 @@
 
 #developpMenue{
     cursor: pointer;
+    margin-top: 10px;
     &:hover{
         text-decoration: underline;
     }
 }
 
+#error-login{
+    color: #E8415C;
+}

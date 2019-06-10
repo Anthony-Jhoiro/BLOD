@@ -1,0 +1,9 @@
+<div id="message_container">
+    <app-message-bubble *ngFor="let message of contentMsg" [content]="message.content" [autor]="message.autor" [dateTime]="message.dateTime">
+
+    </app-message-bubble>
+
+    
+    
+</div>
+<app-input-area class="bottom" (sended)="onSended($event)"></app-input-area>

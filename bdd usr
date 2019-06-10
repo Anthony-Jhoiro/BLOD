@@ -1,0 +1,14 @@
++------+----------+--------------+------------+-------------------+
+| u_id | u_name   | u_password   | u_birth    | u_mail            |
++------+----------+--------------+------------+-------------------+
+|    8 | Jhoiro   | passjhoiro   | 2000-09-06 | jhoiro@mail.com   |
+|    9 | Yuki     | passyuki     | 1996-06-04 | yuki@mail.com     |
+|   10 | Rhein    | passrhein    | 1997-07-09 | rhein@mail.com    |
+|   11 | Minckard | passminckard | 2000-11-08 | minckard@mail.com |
+|   12 | Drar     | passdrar     | 1995-06-06 | drar@mail.com     |
+|   13 | Neelia   | passneelia   | 2000-01-01 | neelia@mail.com   |
+|   14 | Émilie   | passemilie   | 2000-01-01 | emilie@mail.com   |
+|   15 | Amy      | passamy      | 2000-01-01 | amy@mail.com      |
+|   16 | Ruby     | passruby     | 2000-01-01 | ruby@mail.com     |
+|   17 | Meer     | passmeer     | 2000-01-01 | merr@mail.com     |
++------+----------+--------------+------------+-------------------+

@@ -9,15 +9,32 @@
 </head>
 
 <body>
+    <div class="middle">
+        <label><input type="text"><button>Valider</button></label>
+        <div id="messages"></div>
+        <input id="send" type="text">
+        <button id="send">Send</button>
+    </div>
+    
     <button id="poke">Push me !</button>
+    <button id="pedestre">Connect to "Les petits pedestres"</button>
 </body>
 <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-<script src="/socket.io/socket.io.js"></script>
+<script src="http://localhost:8080/socket.io/socket.io.js"></script>
 <script>
     var socket = io.connect('http://localhost:8080');
+    var current_chat = "";
     $('#poke').click(() => {
-        socket.emit('new_Account', {name: "Yuki", password: "password"});
+        socket.emit('new_chat', {name: "Les Petits pédestres"});
     })
+    $('#pedestre').click(()=>{
+        current_chat = "1";
+        socket.emit('')
+    })
+    socket.on("", data=>{
+        $('#Rep').append("<p>"+data+"</p>");
+    });
+
 </script>
 
 </html>
